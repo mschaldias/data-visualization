@@ -6,7 +6,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.MINTY])
 
 app.layout = dbc.Container(
     [
-        dbc.Row(dbc.Col(html.H2('SPOTIFY DATA OVERVIEW', className='text-center text-primary, my-3'))),  # header row
+        dbc.Row(dbc.Col(html.H2('SPOTIFY DATA OVERVIEW', className='text-center my-3'))),  # header row
         
         dbc.Row([  
             dbc.Col([  
